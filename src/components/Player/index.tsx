@@ -14,7 +14,9 @@ export function Player() {
        <footer className={styles.empty}>
            <div className={styles.progress}>
                <span>00:00</span>
-               <div className={styles.emptySlider} />
+               <div className={styles.slider}>
+                <div className={styles.emptySlider} />
+               </div>
                <span>00:00</span>
            </div>
 
@@ -24,7 +26,7 @@ export function Player() {
                </button>
 
                <button type="button">
-                   <img src="/play-previous" alt="Tocar anterior" />
+                   <img src="/play-previous.svg" alt="Tocar anterior" />
                </button>
 
                <button type="button" className={styles.playButton}>
